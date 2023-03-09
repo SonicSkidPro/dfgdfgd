@@ -26,7 +26,6 @@ local ReplicatedStorage, UserInputService, TeleportService, HttpService, RunServ
 --
 
 --
-local CreateRenderObject = GetUpvalue(Drawing.new, 1)
 local DestroyRenderObject = GetUpvalue(GetUpvalue(Drawing.new, 7).__index, 3)
 local SetRenderProperty = GetUpvalue(GetUpvalue(Drawing.new, 7).__newindex, 4)
 local GetRenderProperty = GetUpvalue(GetUpvalue(Drawing.new, 7).__index, 4)
